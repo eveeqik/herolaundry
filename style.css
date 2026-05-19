@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden; /*I don’t really know how to stop the page from scrolling properly, so for now I just used overflow: hidden. Is there a better solution for this? */
+  background-color: white;
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+  display: inline-block;
+  padding: 20px 100px;
+}
+
+.nav-links {
+  display: inline-block;
+  list-style: none;
+  vertical-align: middle;
+  position: relative;
+  left: 420px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  margin: 0 15px;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.username {
+  display: inline-block;
+  position: relative;
+  left: 750px;
+  height: 50px;
+  width: 90px;
+  border: none;
+  border-radius: 10px;
+  background: #e1f8ff;
+  color: #007bff;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.hero-section {
+  width: 100vw;
+  height: 90vh;
+  display: inline-block;
+  background-color: #fcfcfc;
+  padding-top: 20px;
+  font-size: 0; /*my two divs are not in the same line so I used this to fix it. I got to know this from ai I didnt copy it. */
+}
+
+.left-div {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  padding: 50px;
+}
+
+.left-div h1 {
+  font-size: 50px;
+  padding: 40px 90px;
+  line-height: 70px;
+  color: #494949;
+}
+
+.left-div span {
+  color: #14abff;
+}
+
+.left-div p {
+  font-size: 20px;
+  padding: 20px 90px;
+  color: #9e9e9e;
+  position: relative;
+  bottom: 55px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.left-div button {
+  padding: 20px 34px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #14abff;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  height: 65px;
+  width: 270px;
+      position: relative;
+    left: 87px;
+    bottom: 40px;
+}
+
+.right-div {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  padding: 20px;
+  vertical-align: top;
+}
+
+.right-div img {
+  width: 480px;
+  height: 480px;
+}
